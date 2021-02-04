@@ -1,0 +1,193 @@
+/*Début partie aliments*/
+#conteneurProduit {
+    display: flex;
+    margin-top: 10px;
+}
+
+/*Menu vertical de gauche*/
+div.menu2 {
+    color: white;
+    font-size: 30px;
+    border-style: solid;
+    border-radius: 15px;
+    width: 20%;
+    height: max-content;
+    margin-top: 15px;
+    line-height: 170%;
+}
+
+div.menu2 a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+/*FIn menu vertical de gauche*/
+
+/*Conteneur tous les articles*/
+#aliments {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+/*Fin conteneur tous les articles*/
+
+/*Séparation de chaque ligne*/
+#Ligne1{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Ligne2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+#Ligne3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+#Ligne4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+/*Fin séparation de chaque ligne*/
+
+/*Caractéristiques communes articles*/
+.aliments img {
+    max-width: 100%;
+    height: min-content;
+}
+
+.achat{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nom{
+    text-align: center;
+    color: grey;
+    font-size: 25px;
+}
+.prix{
+    text-align: left;
+    color: grey;
+    font-size: 26px;
+}
+
+.bouton{
+    border-radius:12px 0 12px 0;
+	background: #A6A4A5;
+	border:none;
+    color:#fff;
+    margin-top: 20px;
+    height: 32px;
+    
+}
+/*Fin Caractéristiques communes articles*/
+
+/*Début articles*/
+#aliment1{
+    background-color: white;
+    width:24%;
+}
+
+#aliment2{
+    background-color: white;
+    width: 24%;
+}
+#aliment3{
+    background-color: white;
+    width: 24%;
+}
+#aliment4{
+    background-color: white;
+    width: 24%;
+}
+#aliment5{
+    background-color: white;
+    width: 24%;
+}
+#aliment6{
+    background-color: white;
+    width: 24%;
+}
+#aliment7{
+    background-color: white;
+    width: 24%;
+}
+#aliment8{
+    background-color: white;
+    width: 24%;
+}
+#aliment9{
+    background-color: white;
+    width: 24%;
+}
+#aliment10{
+    background-color: white;
+    width: 24%;
+}
+#aliment11{
+    background-color: white;
+    width: 24%;
+}
+#aliment12{
+    background-color: white;
+    width: 24%;
+}
+#aliment13{
+    background-color: white;
+    width: 24%;
+}
+#aliment14{
+    background-color: white;
+    width: 24%;
+}
+#aliment15{
+    background-color: white;
+    width: 24%;
+}
+#aliment16{
+    background-color: white;
+    width: 24%;
+}
+/*Fin article*/
+
+/*POP-UP Description détaillée*/
+.modal{
+    top: 0;
+    visibility: hidden;
+    position: fixed;
+    left: 0;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+.modal.active{
+    visibility: visible;
+    
+}
+.modal.active .container {
+    animation: 0.5s scaleUp;
+    height: 250px;
+    width: 250px;
+    margin-top: 25%;
+    margin-left: 40% ;
+    background-color: seashell;
+}
+#Infos{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+@keyframes scaleUp{
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+/*Fin POP-UP Description détaillée*/

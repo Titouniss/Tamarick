@@ -1,0 +1,18 @@
+.map{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+}
+
+.mapinfo{
+    display: flex;
+    flex-direction: row;
+    height: 750px;
+    width: 30%;
+    text-align: center;
+    border: rgb(255, 255, 255) solid;
+    border-radius: 15px;
+    background-color: rgb(214, 139, 139);
+}

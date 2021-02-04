@@ -1,0 +1,62 @@
+/* Contact */
+
+form {
+    padding: 1em;
+    border: rgb(255, 255, 255) solid;
+    border-radius: 1em;
+    background-color: rgb(214, 139, 139);
+
+}
+  
+form div + div {
+    margin-top: 1em;
+}
+  
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+  
+input{
+    font: 1em sans-serif;
+    width: min-content;
+    box-sizing: border-box;
+    border: rgb(255, 255, 255) solid;
+}
+    
+input:focus, textarea:focus {
+    border: rgb(214, 139, 139);
+}
+  
+textarea {
+    font: 2em sans-serif;
+    color: white;
+    width: 100%;
+    vertical-align: top;
+    height: 30em;
+    border: rgb(255, 255, 255) solid;
+    border-radius: 15px;
+    background-color: rgb(214, 139, 139);
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+  
+.button {
+    padding-left: 90px; 
+}
+  
+button {
+margin-left: .5em;
+border: rgb(255, 255, 255) solid;
+border-radius: 15px;
+background-color: rgb(214, 139, 139);
+margin-top: 10px;
+color: white;
+font-size: 20px;
+}
+
+/* Contact fin*/

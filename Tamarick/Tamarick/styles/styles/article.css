@@ -1,0 +1,130 @@
+#list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.article {
+    background: white ;
+    border: .0625rem solid #e5e5e5;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 270px;
+    height: 320px;
+}
+
+.description{
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+}
+
+.achat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 15px 3px 5px ;
+}
+
+.quantite{
+    color: #002d72;
+    font-size: 1.2rem;
+}
+
+.prixQtt{
+    margin-top: 5px;
+    color: #4a4d52;
+}
+.origine{
+    color: #4a4d52;
+    font-weight: lighter;
+    font-size: 1.4rem;
+}
+
+.PrixAchat{
+    color: #002d72;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.nom{
+    font-size: 1.3rem;
+    text-decoration: #002d72;
+}
+
+h4{
+    color: #002d72;
+    font-size: 1.6rem;
+    font-weight: bold;  
+}
+
+/* Articles promos */
+
+#promos .article {
+    float: left;
+    margin: 10px;
+    padding:5px;
+    background-color: white;
+}
+
+.infospromo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#promos .infos{
+    margin-top: 20px;
+}
+
+#promos .quantite{
+    margin-top: 35px;
+}
+
+.pourcentage{
+    background-color: white; 
+    border-radius: 5px;
+    float: left;
+    color: red;
+    font-size: 1rem;
+    margin-top: 2px;
+}
+
+.achatpromo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 3px;
+}
+
+.PrixPromo{
+    color: red;
+    float: left;
+    font-size: 2rem;
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+
+#promos .PrixAchat{
+    color: #002d72;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: left;
+    font-size: 1rem;
+    font-weight: lighter;
+    text-decoration: line-through;
+}
+
+.card-price{
+    display: flex;
+    flex-direction: column;
+}
